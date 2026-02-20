@@ -20,4 +20,13 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
+/**
+ * @brief Initialize peripherals and Serial output.
+ *
+ * Sets up Serial at 9600 baud, initializes the DHT sensor library,
+ * and prints a startup banner to the Serial Monitor.
+ *
+ * This function is called once by the Arduino core during boot.
+ */
+
 
